@@ -1,4 +1,8 @@
-body {
-  font-family: "Trebuchet MS";
-  background-color: blue;
+@import "partials/reset";
+@import "partials/style";
+@import "partials/typo";
+@import "partials/colors";
+
+.main {
+  background-color: $menu-bg-color;
 }

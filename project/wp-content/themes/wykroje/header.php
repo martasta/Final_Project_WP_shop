@@ -7,14 +7,13 @@
     <?php wp_head(); ?>
 </head>
 <body>
-<header class="bg-info text-white">>
+<header class="header">
     <div class="container">
-        <a href="<?php echo site_url('/'); ?>"></a>
-            <img alt="Logo" src="http://coderslab.pl/svg/logo-coderslab.svg" width="400">
-        </a>
+    <nav class="main">
+      <?php wp_nav_menu([ 'menu' => 'main' ]) ?>
+    </nav>
     </div>
         <?php
-        //Dodaj menu
 
         ?>
     </div>
