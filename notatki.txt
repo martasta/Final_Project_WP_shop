@@ -1,0 +1,103 @@
+strona g³ówna:
+-o nas
+-wykroje -mêskie
+	 -damskie
+	 -dzieciêce
+-tabela rozmiarów
+-FAQ
+-regulamin
+-kontakt
+
+-szukaj
+
+-logowanie/rejestracja
+
+---
+logo, menu, moje konto
+baner-slider
+s³owo wstêpu o firmie
+zajawka co w danym dziale
+stopka 
+---
+rejestracja nowego u¿ytkownika:
+1 podstrona z danymi do wype³nienia
+---
+logowanie:
+
+---
+o nas:
+1 podstrona z textem + foto
+---
+mêskie, damskie, dzieciêce:
+miniatury foto z modelami i cenami:
+po klikniêciu danego dzia³u-podstrona z danym modelem i opisem szczegó³ówym produktu i reszt¹ zdjêæ
+---
+tabela rozamiarów:
+1 podstrona z tabel¹
+---
+FAQ:
+1 podstrona
+---
+regulamin:
+1 podstrona
+---
+kontakt:
+formularz kontaktowy
++dane teleadresowe
+
+---
+Instalacja WP na nowym projekcie
+
+
+mkdir project
+cd project
+wp core download --locale=pl_PL // wp core download --version=4.8 --locale=pl_PL
+
+wpisujemy adres localhost/nazwa_folderu_z_projektem
+
+pojawia siê 
+
+wchodzimy w phpmyadmin
+i dadajemy nowego uzytkownika
+---
+tworzenie repo:
+
+mkdir wordpress
+cd wordpress
+git init
+touch index.php
+git add .
+git commit -m ""
+ls index.php
+ls -la
+git remote -v
+(git remote -v - pokazuje czy mam zew.repo)
+git remote add origin link do mojego utworzonego wlasnie repo / ³¹czy siê z zew. repo
+git push origin master / do którego brancha puszujemy
+--
+FilleZilla
+
+ssh
+
+git rm --cashed
+
+
+--
+
+repositories->tworzê nowe repozytorium->pokazuje siê link do mojego repo
+
+--
+phpMyadmin
+ms
+admin
+
+---
+Tytu³ witryny
+shop
+Nazwa u¿ytkownika
+ms
+Has³o
+wpshop2017MS
+
+
+http://paletton.com
